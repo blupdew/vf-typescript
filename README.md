@@ -39,3 +39,14 @@ number = '420'
 Cela permet d'empêcher des bêtes mais souvant pénibles.
 
 C'est un exemple simple, mais on peut faire bien plus de choses avec !
+
+### Avantages
+
+- Autocomplétion pratique
+  - Les libs externes comme Vue sont consruites dessus, on a donc accès à toutes les options depuis notre éditeur.
+
+- Empêche les erreus de type `xx is undefined` car on le sait à l'avance
+- Les types sont souvent implicites donc pas forcément beaucoup de boulot en plus
+- Permet de savoir à l'avance ce qui va être dans une objet
+
+- -> Un code plus stable
