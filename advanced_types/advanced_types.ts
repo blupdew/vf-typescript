@@ -1,4 +1,4 @@
-const response_api = {
+const api_response = {
   id: 'id-xxx-api',
   title: ''
 }
@@ -7,7 +7,7 @@ const response_api = {
  * id: string
  * title: string
  */
-type ApiResponseType = typeof response_api
+type ApiResponseType = typeof api_response
 
 /** 'id' | 'title' */
 type keyOfRespone = keyof ApiResponseType
