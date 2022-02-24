@@ -10,6 +10,10 @@
 - <https://www.typescriptlang.org/>
 - <https://www.typescriptlang.org/docs/handbook/intro.html>
 
+**State of JS 2021**
+
+<https://2021.stateofjs.com/en-US/opinions/#currently_missing_from_js_wins>
+
 ## Sommaire
 
 - Concept et utilité
