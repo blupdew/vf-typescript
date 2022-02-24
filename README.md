@@ -2,6 +2,8 @@
 
 > AKA. Pourquoi c'est bien, et pourquoi je spam tout le monde avec 😄
 
+![](https://pics.me.me/welcome-to-javascript-where-the-objects-are-made-up-and-13411868.png)
+
 **Liens utiles pour apprendre**
 
 - <https://www.youtube.com/watch?v=ffCIANfx_-0&list=PLjwdMgw5TTLX1tQ1qDNHTsy_lrkCt4VW3>
@@ -56,6 +58,10 @@ C'est un exemple simple, mais on peut faire bien plus de choses avec !
 - Permet de savoir à l'avance ce qui va être dans une objet
 
 - -> Un code plus stable et surtout moins permissif.
+
+### Titre inutile, c'est juste un meme
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdmitripavlutin.com%2Fstatic%2Ff3acca84aa642ed9f8591db27e382a90%2F5fd6b%2Ftypeof-5.jpg&f=1&nofb=1)
 
 ### Installation dans un projet front
 
@@ -151,6 +157,8 @@ Mais d'un autre côté, c'est du temps que l'on ne passera pas à debugger et à
 Aussi, il est bien plus facile pour un nouvel arrivant sur un projet de comprendre le code car tout est "documenté" via les types.
 
 En JS tout est `any` et on ne comprend pas directement ce qu'on touche (jusqu'à ce que le navigateur nous gueule dessus).
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fd3b8tswrbxn31.jpg&f=1&nofb=1)
 
 **Est-ce applicable à toute taille projet ?**
 
