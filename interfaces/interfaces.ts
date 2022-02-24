@@ -13,7 +13,7 @@ interface _Post {
 // -> Type '{}' is missing the following properties from type 'Post': id, title, cover_url, content, and 2 more
 // On a également de l'autocomplétion en écrivant notre objet
 
-// const un_post: Post = {}
+// const post_de_test: _Post = {}
 
 const un_autre_post_cool: _Post = {
   id: 1,

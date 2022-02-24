@@ -1,11 +1,21 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "noImplicitAny": false,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true
-  },
-  "include": ["./*"],
-  "exclude": ["node_modules"]
+    "baseUrl": ".",
+    "target": "es2017",
+    "module": "CommonJS",
+    "lib": ["esnext", "DOM"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "strictPropertyInitialization": false,
+    "paths": {
+      "~/*": ["./*"]
+    }
+  }
 }
