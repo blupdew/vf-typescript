@@ -2,6 +2,12 @@
 
 > AKA. Pourquoi c'est bien, et pourquoi je spam tout le monde avec 😄
 
+**Liens utiles pour apprendre**
+
+- <https://www.youtube.com/watch?v=ffCIANfx_-0&list=PLjwdMgw5TTLX1tQ1qDNHTsy_lrkCt4VW3>
+- <https://www.typescriptlang.org/>
+- <https://www.typescriptlang.org/docs/handbook/intro.html>
+
 ## Sommaire
 
 - Concept et utilité
