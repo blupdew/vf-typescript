@@ -9,6 +9,7 @@
 - <https://www.youtube.com/watch?v=ffCIANfx_-0&list=PLjwdMgw5TTLX1tQ1qDNHTsy_lrkCt4VW3>
 - <https://www.typescriptlang.org/>
 - <https://www.typescriptlang.org/docs/handbook/intro.html>
+- <https://github.com/type-challenges/type-challenges> -> 👍 vraiment sympa
 
 **State of JS 2021**
 
