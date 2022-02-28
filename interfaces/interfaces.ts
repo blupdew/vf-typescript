@@ -5,7 +5,7 @@
 interface _Post {
   id: number
   title: string
-  cover_url: string
+  cover_url?: string
   content: string
   covers: string[]
 }
