@@ -6,12 +6,13 @@
 
 **Liens utiles pour apprendre**
 
-- <https://www.youtube.com/watch?v=ffCIANfx_-0&list=PLjwdMgw5TTLX1tQ1qDNHTsy_lrkCt4VW3>
-- <https://www.typescriptlang.org/>
-- <https://www.typescriptlang.org/docs/handbook/intro.html>
-- <https://github.com/type-challenges/type-challenges> -> 👍 vraiment sympa
+- [Série Grafikart](https://www.youtube.com/watch?v=ffCIANfx_-0&list=PLjwdMgw5TTLX1tQ1qDNHTsy_lrkCt4VW3)
+- [Doc officielle](https://www.typescriptlang.org/)
+- [Challenges](https://github.com/type-challenges/type-challenges) -> 👍 vraiment sympa (faits par des membres de la team Vue.js)
 
 **State of JS 2021**
+
+Les types sont ce qu'il manque le plus dans JS
 
 <https://2021.stateofjs.com/en-US/opinions/#currently_missing_from_js_wins>
 
@@ -85,11 +86,11 @@ Pour du Nuxt, c'est pareil, il y a une option lors de l'installation. De plus, N
 
 ---
 
-Dans l'exemple de Vue, TS est maintenant recommandé et fonctionne dans aucun souci avec la nouvelle Composition API (même dans le template !).
+Dans l'exemple de Vue, TS est maintenant fortemment recommandé et fonctionne sans aucun souci avec la nouvelle "Composition API" (même dans le template !).
 
 ---
 
-Pour tout autre type de projet, le module npm `typescript` avec la commande `tsc` fonctionne très bien
+Pour tout autre type de projet, le module officiel npm `typescript` avec la commande `tsc` fonctionne très bien.
 
 ---
 
@@ -151,23 +152,21 @@ Pas expérience, le meilleur moyen d'apprendre et de mettre les pattes.
 
 **Qu'en est-il du temps supplémentaire ?**
 
-"Ça dépend"
+> *Ça dépend*
 
-Si la personne concernée n'a pas une base de connaissance, oui du temps supplémentaire serait à prendre en compte.
-
-Avec un minimum de connaissance cependant (vraiment la base), ce temps est négligeable. On va certes prendre un petit peu plus de temps à typer nos variables, etc.
+Avec un minimum de connaissance (vraiment la base), on va certes prendre un petit peu plus de temps à typer nos variables, etc.
 
 Mais d'un autre côté, c'est du temps que l'on ne passera pas à debugger et à se demander pourquoi machin est `undefined` 😠...
 
 Aussi, il est bien plus facile pour un nouvel arrivant sur un projet de comprendre le code car tout est "documenté" via les types.
 
-En JS tout est `any` et on ne comprend pas directement ce qu'on touche (jusqu'à ce que le navigateur nous gueule dessus).
+En JS tout est généralement `any` et on ne comprend pas directement ce qu'on touche (jusqu'à ce que le navigateur nous gueule dessus).
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fd3b8tswrbxn31.jpg&f=1&nofb=1)
 
 **Est-ce applicable à toute taille projet ?**
 
-Comme dit dans le paragraphe sur l'installation, il n'est pas toujours évident de migrer un base de code existante. Cependant des alternatives existent comme les `.d.ts`.
+Comme dit dans le paragraphe sur l'installation, il n'est pas toujours évident de migrer une base de code existante. Cependant des alternatives existent comme les `.d.ts`.
 
 Mis à part ce cas, tout projet est capable d'utiliser TS. Je le recommande d'ailleurs **surtout** pour les projets qui risquent d'être gros avec du code spaghetti (PopLab 🙃).
 
