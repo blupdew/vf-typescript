@@ -140,6 +140,10 @@ function get_cheese_name(cheese) {
 }
 ```
 
+### Un peu de pratique
+
+...
+
 ### Prise en main
 
 Pour utiliser TS, il faut absolument être confortable avec le JS et surtout le JS moderne. La syntaxe reste similaire mais il faut évidement se former aux nouveautés qu'apportent TS.
