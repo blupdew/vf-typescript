@@ -1,17 +1,17 @@
 /**
  * Types de base
  */
- const une_string = 'Reblochon' // -> string
+const une_string = 'Reblochon' // -> string
 
- const un_number = 420 // -> number
- 
- const un_array = ['i', 'love', 'cheese'] // -> string[] ou Array<string>
- 
- const un_object = { cheese: 'Brie', number: 1 } // -> Record<string, string | number>
- 
- const un_null = null // -> any
- 
- const un_undefined = undefined // -> any
+const un_number = 420 // -> number
+
+const un_array = ['i', 'love', 'cheese'] // -> string[] ou Array<string>
+
+const un_object = { cheese: 'Brie', number: 1 } // -> Record<string, string | number>
+
+const un_null = null // -> null
+
+const un_undefined = undefined // -> undefined
 
 /**
  * Utiliser des types
