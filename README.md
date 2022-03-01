@@ -1,4 +1,4 @@
-# VF Typescript
+# VF TypeScript
 
 > AKA. Pourquoi c'est bien, et pourquoi je spam tout le monde avec 😄
 
