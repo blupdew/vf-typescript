@@ -22,7 +22,7 @@ const un_undefined = undefined // -> undefined
 const cheese: string = 'Hello world !'
 
 /**
- * Pas beson de définir les types en JSDOC
+ * Pas beson de définir les types en JSDOC, TS fait le job
  *
  * @param id - ID pizza
  * @param name - Nom de la pizza
@@ -30,4 +30,17 @@ const cheese: string = 'Hello world !'
  */
 function eatPizza(id: string = 'id_par_defaut', name: string, cheese_amount: number) {
   console.log(`Pizza ${name} with id ${id} eaten, you just ate ${cheese_amount} cheeses !`)
+}
+
+/*
+ * Le type `any`
+ * > Il annule tout typage
+ * 
+ * La plupart des variables ont ce type en JS, ce qui n'offre aucune aide.
+ * Par ex: les fonctions
+ */
+const je_sais_pas: any = 'Un truc' // any et non pas string
+
+function test(param) {
+  return ''
 }
