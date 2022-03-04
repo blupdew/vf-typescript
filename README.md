@@ -32,14 +32,14 @@ Typescript n'est pas un nouveau language mais un superset de `Javascript` c'est 
 
 **Mais pourquoi ?**
 
-Javascript n'as pas de typage fort, example:
+Javascript n'a pas de typage fort, exemple:
 
 ```js
 let number = 420
 
 number = '420'
 
-// JS valide, mon number peut devenir une string sans aucun soucis
+// JS valide, mon number peut devenir une string sans aucun souci
 ```
 
 ```ts
@@ -50,7 +50,7 @@ number = '420'
 // JS valide mais pas TS, mon number ne peut pas devenir une string -> Pas le droit en TS, un number reste un number -> Le fichier ne peut pas compiler
 ```
 
-Cela permet d'empêcher des bêtes mais souvent pénibles.
+Cela permet d'empêcher des bêtes mais souvent pénibles bugs.
 
 C'est un exemple simple, mais on peut faire bien plus de choses avec !
 
@@ -61,7 +61,7 @@ C'est un exemple simple, mais on peut faire bien plus de choses avec !
 
 - Empêche les erreurs de type `xx is undefined` car on le sait à l'avance
 - Les types sont souvent implicites donc pas forcément beaucoup de boulot en plus
-- Permet de savoir à l'avance ce qui va être dans une objet
+- Permet de savoir à l'avance ce qui va être dans un objet
 
 - -> Un code plus stable et surtout moins permissif.
 
@@ -98,7 +98,7 @@ Btw, TS est un très bon combo avec ESLint, surtout si on aime le rouge partout.
 
 ### Dans un projet existant
 
-Il faut se référencer à la documentation du type projet.
+Il faut se référer à la documentation du type projet.
 
 Dans le cas de Vue (`vue-cli`), il s'agit d'une simple commande.
 
@@ -108,7 +108,7 @@ Il sera ensuite possible d'ajouter du TS au fur et à mesure sans tout casser.
 
 ---
 
-Il est également possible d'ajouter des fichiers de déclaration si TS n'est pas installable pour X ou Y (PopLab), VSCode va les comprendre et les utiliser sans aucune config.
+Il est également possible d'ajouter des fichiers de déclaration si TS n'est pas installable pour X ou Y, VSCode va les comprendre et les utiliser sans aucune config.
 
 EX:
 
@@ -152,7 +152,7 @@ Nos niveaux en JS / TS, sont / seront sûrement différents et c'est pourquoi je
 
 Cela permet de faire des retours sur les bonnes pratiques, et entre autre, de ne pas se retrouver avec du code legacy par la suite.
 
-Pas expérience, le meilleur moyen d'apprendre et de mettre les pattes.
+Pas expérience, le meilleur moyen d'apprendre est d'y mettre les pattes.
 
 **Qu'en est-il du temps supplémentaire ?**
 
@@ -172,9 +172,9 @@ En JS tout est généralement `any` et on ne comprend pas directement ce qu'on t
 
 Comme dit dans le paragraphe sur l'installation, il n'est pas toujours évident de migrer une base de code existante. Cependant des alternatives existent comme les `.d.ts`.
 
-Mis à part ce cas, tout projet est capable d'utiliser TS. Je le recommande d'ailleurs **surtout** pour les projets qui risquent d'être gros avec du code spaghetti (PopLab 🙃).
+Mis à part ce cas, tout projet est capable d'utiliser TS. Je le recommande d'ailleurs **surtout** pour les projets qui risquent d'être gros avec du code spaghetti.
 
-D'experience j'était vraiment perdu en arrivant sur le projet (je le suis toujours d'ailleurs :doge:) MAIS avec TS je pense honnêtement que cela aurait été plus noob-friendly.
+D'expérience j'était vraiment perdu en arrivant sur le projet (je le suis toujours d'ailleurs :doge:) MAIS avec TS je pense honnêtement que cela aurait été plus noob-friendly.
 
 ### Misc
 
